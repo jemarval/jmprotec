@@ -1,0 +1,82 @@
+ /* light */
+ @font-face {
+    font-family: 'Clarity City';
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('/resources/fonts/ClarityCity-Light.woff2') format('woff2'),
+      url('/resources/fonts/ClarityCity-Light.woff') format('woff');
+  }
+  
+  /* regular */
+  @font-face {
+    font-family: 'Clarity City';
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('/resources/fonts/ClarityCity-Regular.woff2') format('woff2'),
+      url('/resources/fonts/ClarityCity-Regular.woff') format('woff');
+  }
+  
+  /* bold */
+  @font-face {
+    font-family: 'Clarity City';
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('/resources/fonts/ClarityCity-Bold.woff2') format('woff2'),
+      url('/resources/fonts/ClarityCity-Bold.woff') format('woff');
+  }
+
+    /* bold italic*/
+    @font-face {
+        font-family: 'Clarity City';
+        font-weight: 700;
+        font-style: italic;
+        font-display: swap;
+        src: local('Clarity City'), url('/resources/fonts/ClarityCity-BoldItalic.woff2') format('woff2'),
+          url('/resources/fonts/ClarityCity-BoldItalic.woff') format('woff');
+      }
+
+    /* black */
+  @font-face {
+    font-family: 'Clarity City';
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('/resources/fonts/ClarityCity-Black.woff2') format('woff2'),
+      url('/resources/fonts/ClarityCity-Black.woff') format('woff');
+  }
+
+    /* black italic*/
+    @font-face {
+        font-family: 'Clarity City';
+        font-weight: 900;
+        font-style: italic;
+        font-display: swap;
+        src: local('Clarity City'), url('/resources/fonts/ClarityCity-BlackItalic.woff2') format('woff2'),
+          url('/resources/fonts/ClarityCity-BlackItalic.woff') format('woff');
+      }
+
+
+
+
+  /* medium
+  @font-face {
+    font-family: 'Clarity City';
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('../../Webfonts/WOFF2/ClarityCity-Medium.woff2') format('woff2'),
+      url('../../Webfonts/WOFF/ClarityCity-Medium.woff') format('woff');
+  }
+  */
+  /* semi bold 
+  @font-face {
+    font-family: 'Clarity City';
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+    src: local('Clarity City'), url('../../Webfonts/WOFF2/ClarityCity-SemiBold.woff2') format('woff2'),
+      url('../../Webfonts/WOFF/ClarityCity-SemiBold.woff') format('woff');
+  } */
