@@ -293,24 +293,58 @@ nav ul a{
 
 .why-us {
     background-color: var(--dark-gray);
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    padding: var(--section-padding);
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 
 }
 
 .car-slant {
     position: relative;
-    width: 50%;
+    width: 100%;
+    grid-row: 1 / 2;
+    grid-column: 1 / 2;
 }
 
-.slant-block {
+.car-slant img {
+    max-height: 40rem;
+    margin: auto;
+}
+
+.why-us .content {
+    grid-column: 2 / 3;
+}
+
+.why-us .content .subtitle {
+    flex-wrap: wrap;
+    margin-bottom: 4rem;
+}
+
+.why-us .subtitle h2 {
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.why-us-advantage {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+/* .slant-block {
     position: absolute;
     top: 70%;
     right: 70%;
     bottom: -2rem;
     left: 10%;
     z-index: 5;
-    background-color: var(--light-gray);
+    background-color: var(--yellow-dark);
     transform: skewX(10deg);
-}
+} */
 
 /* footer */
 
@@ -333,7 +367,7 @@ footer {
 
 @media only screen and (max-width: 60rem) {
     
-    /* Header and Hero */
+    /* Header and Hero mq60 */
     
     nav {
         flex-direction: column;
@@ -363,20 +397,47 @@ footer {
         text-align: center;
     }
 
-    /* Social */
+    /* Social mq60 */
 
     .diagonal {
         right: 1%;
         overflow: hidden;
     }
 
-    /* services */
+    /* services mq60 */
 
     .service-card {
         flex-basis: 31.5%;
     }
 
+    /* why us mq60 */
+
+    .why-us {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr;
+    }
+    
+    .car-slant {
+        grid-row: 2 / 3;
+        grid-column: 1 / 2;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+    
+    .why-us .content {
+        grid-row: 1 / 2;
+        grid-column: 1 / 2;
+        justify-self: center;
+        padding-right: 3%;
+        padding-left: 3%;
+    }
+
+    .why-us .subtitle {
+        max-width: 100%;
+    }
+
 }
+
 
 @media only screen and (max-width: 50rem) { 
 
